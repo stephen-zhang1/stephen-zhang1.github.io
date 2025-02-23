@@ -1,0 +1,25 @@
+/* Make sure the iframe covers the full screen */
+iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    border: none;
+}
+
+/* Style the download link to be at the bottom of the page */
+.download-link {
+    position: fixed;
+    bottom: 10px;
+    left: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.download-link:hover {
+    background-color: rgba(0, 0, 0, 0.7);
+}
